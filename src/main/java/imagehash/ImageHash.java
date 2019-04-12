@@ -1,7 +1,7 @@
 package imagehash;
 
 import imagehash.exception.NoSuchAlgorithmException;
-import imagehash.utils.ImageHelper;
+import imagehash.helpers.ImageHelper;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -10,7 +10,7 @@ import java.io.InputStream;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class ImageHashUtils {
+public class ImageHash {
 
     public static final int HASH_SIZE = 8;
 

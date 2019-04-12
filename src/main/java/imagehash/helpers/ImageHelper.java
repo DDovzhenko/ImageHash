@@ -1,4 +1,4 @@
-package imagehash.utils;
+package imagehash.helpers;
 
 import java.awt.*;
 import java.awt.color.ColorSpace;
